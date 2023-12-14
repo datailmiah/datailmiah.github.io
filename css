@@ -1,85 +1,85 @@
 ﻿@font-face {
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  src: url(s/abrilfatface/v23/zOL64pLDlL1D99S8g8PtiKchq-dmiA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Alata';
+  font-style: normal;
+  font-weight: 400;
+  src: url(s/alata/v9/PbytFmztEwbIoce9zqM.ttf) format('truetype');
+}
+@font-face {
   font-family: 'Bodoni Moda';
   font-style: italic;
   font-weight: 400;
-  font-display: swap;
   src: url(s/bodonimoda/v23/aFT07PxzY382XsXX63LUYJSPUqb0pL6OQqxrZLnVbvZedvJtj-V7tIaZKMNItnDN.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Bodoni Moda';
   font-style: italic;
   font-weight: 500;
-  font-display: swap;
   src: url(s/bodonimoda/v23/aFT07PxzY382XsXX63LUYJSPUqb0pL6OQqxrZLnVbvZedvJtj-V7tIaZGsNItnDN.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Bodoni Moda';
   font-style: italic;
   font-weight: 600;
-  font-display: swap;
   src: url(s/bodonimoda/v23/aFT07PxzY382XsXX63LUYJSPUqb0pL6OQqxrZLnVbvZedvJtj-V7tIaZ9sRItnDN.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Bodoni Moda';
   font-style: italic;
   font-weight: 700;
-  font-display: swap;
   src: url(s/bodonimoda/v23/aFT07PxzY382XsXX63LUYJSPUqb0pL6OQqxrZLnVbvZedvJtj-V7tIaZz8RItnDN.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Bodoni Moda';
   font-style: italic;
   font-weight: 800;
-  font-display: swap;
   src: url(s/bodonimoda/v23/aFT07PxzY382XsXX63LUYJSPUqb0pL6OQqxrZLnVbvZedvJtj-V7tIaZqMRItnDN.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Bodoni Moda';
   font-style: italic;
   font-weight: 900;
-  font-display: swap;
   src: url(s/bodonimoda/v23/aFT07PxzY382XsXX63LUYJSPUqb0pL6OQqxrZLnVbvZedvJtj-V7tIaZgcRItnDN.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Bodoni Moda';
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
   src: url(s/bodonimoda/v23/aFT67PxzY382XsXX63LUYL6GYFcan6NJrKp-VPjfJMShrpsGFUt8oU7a8Id4sQ.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Bodoni Moda';
   font-style: normal;
   font-weight: 500;
-  font-display: swap;
   src: url(s/bodonimoda/v23/aFT67PxzY382XsXX63LUYL6GYFcan6NJrKp-VPjfJMShrpsGFUt8oXza8Id4sQ.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Bodoni Moda';
   font-style: normal;
   font-weight: 600;
-  font-display: swap;
   src: url(s/bodonimoda/v23/aFT67PxzY382XsXX63LUYL6GYFcan6NJrKp-VPjfJMShrpsGFUt8oZDd8Id4sQ.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Bodoni Moda';
   font-style: normal;
   font-weight: 700;
-  font-display: swap;
   src: url(s/bodonimoda/v23/aFT67PxzY382XsXX63LUYL6GYFcan6NJrKp-VPjfJMShrpsGFUt8oand8Id4sQ.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Bodoni Moda';
   font-style: normal;
   font-weight: 800;
-  font-display: swap;
   src: url(s/bodonimoda/v23/aFT67PxzY382XsXX63LUYL6GYFcan6NJrKp-VPjfJMShrpsGFUt8oc7d8Id4sQ.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Bodoni Moda';
   font-style: normal;
   font-weight: 900;
-  font-display: swap;
   src: url(s/bodonimoda/v23/aFT67PxzY382XsXX63LUYL6GYFcan6NJrKp-VPjfJMShrpsGFUt8oefd8Id4sQ.ttf) format('truetype');
 }
 @font-face {
@@ -87,7 +87,6 @@
   font-style: italic;
   font-weight: 400;
   font-stretch: normal;
-  font-display: swap;
   src: url(s/cabin/v27/u-4V0qWljRw-Pd815fNqc8T_wAFcX-c37MPiNYlWniJ2hJXHx_KVxUbq.ttf) format('truetype');
 }
 @font-face {
@@ -95,7 +94,6 @@
   font-style: italic;
   font-weight: 500;
   font-stretch: normal;
-  font-display: swap;
   src: url(s/cabin/v27/u-4V0qWljRw-Pd815fNqc8T_wAFcX-c37MPiNYlWniJ2hJXH9fKVxUbq.ttf) format('truetype');
 }
 @font-face {
@@ -103,7 +101,6 @@
   font-style: italic;
   font-weight: 600;
   font-stretch: normal;
-  font-display: swap;
   src: url(s/cabin/v27/u-4V0qWljRw-Pd815fNqc8T_wAFcX-c37MPiNYlWniJ2hJXHGfWVxUbq.ttf) format('truetype');
 }
 @font-face {
@@ -111,7 +108,6 @@
   font-style: italic;
   font-weight: 700;
   font-stretch: normal;
-  font-display: swap;
   src: url(s/cabin/v27/u-4V0qWljRw-Pd815fNqc8T_wAFcX-c37MPiNYlWniJ2hJXHIPWVxUbq.ttf) format('truetype');
 }
 @font-face {
@@ -119,7 +115,6 @@
   font-style: normal;
   font-weight: 400;
   font-stretch: normal;
-  font-display: swap;
   src: url(s/cabin/v27/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkV2EH7alwg.ttf) format('truetype');
 }
 @font-face {
@@ -127,7 +122,6 @@
   font-style: normal;
   font-weight: 500;
   font-stretch: normal;
-  font-display: swap;
   src: url(s/cabin/v27/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkW-EH7alwg.ttf) format('truetype');
 }
 @font-face {
@@ -135,7 +129,6 @@
   font-style: normal;
   font-weight: 600;
   font-stretch: normal;
-  font-display: swap;
   src: url(s/cabin/v27/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkYODH7alwg.ttf) format('truetype');
 }
 @font-face {
@@ -143,517 +136,443 @@
   font-style: normal;
   font-weight: 700;
   font-stretch: normal;
-  font-display: swap;
   src: url(s/cabin/v27/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkbqDH7alwg.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Cormorant';
   font-style: italic;
   font-weight: 300;
-  font-display: swap;
   src: url(s/cormorant/v21/H4c0BXOCl9bbnla_nHIq6oGzilJm9otsA9kQ9fda7yWv.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Cormorant';
   font-style: italic;
   font-weight: 400;
-  font-display: swap;
   src: url(s/cormorant/v21/H4c0BXOCl9bbnla_nHIq6oGzilJm9otsA9kQq_da7yWv.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Cormorant';
   font-style: italic;
   font-weight: 500;
-  font-display: swap;
   src: url(s/cormorant/v21/H4c0BXOCl9bbnla_nHIq6oGzilJm9otsA9kQmfda7yWv.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Cormorant';
   font-style: italic;
   font-weight: 600;
-  font-display: swap;
   src: url(s/cormorant/v21/H4c0BXOCl9bbnla_nHIq6oGzilJm9otsA9kQdfBa7yWv.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Cormorant';
   font-style: italic;
   font-weight: 700;
-  font-display: swap;
   src: url(s/cormorant/v21/H4c0BXOCl9bbnla_nHIq6oGzilJm9otsA9kQTPBa7yWv.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Cormorant';
   font-style: normal;
   font-weight: 300;
-  font-display: swap;
   src: url(s/cormorant/v21/H4c2BXOCl9bbnla_nHIA47NMUjsNbCVrFk9Tc7Nq6A.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Cormorant';
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
   src: url(s/cormorant/v21/H4c2BXOCl9bbnla_nHIA47NMUjsNbCVrFhFTc7Nq6A.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Cormorant';
   font-style: normal;
   font-weight: 500;
-  font-display: swap;
   src: url(s/cormorant/v21/H4c2BXOCl9bbnla_nHIA47NMUjsNbCVrFiNTc7Nq6A.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Cormorant';
   font-style: normal;
   font-weight: 600;
-  font-display: swap;
   src: url(s/cormorant/v21/H4c2BXOCl9bbnla_nHIA47NMUjsNbCVrFs9Uc7Nq6A.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Cormorant';
   font-style: normal;
   font-weight: 700;
-  font-display: swap;
   src: url(s/cormorant/v21/H4c2BXOCl9bbnla_nHIA47NMUjsNbCVrFvZUc7Nq6A.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Italiana';
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
   src: url(s/italiana/v20/QldNNTtLsx4E__B0XQmWaXk.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Libre Baskerville';
   font-style: italic;
   font-weight: 400;
-  font-display: swap;
   src: url(s/librebaskerville/v14/kmKhZrc3Hgbbcjq75U4uslyuy4kn0qNcWxEQCQ.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Libre Baskerville';
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
   src: url(s/librebaskerville/v14/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNZaxY.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Libre Baskerville';
   font-style: normal;
   font-weight: 700;
-  font-display: swap;
   src: url(s/librebaskerville/v14/kmKiZrc3Hgbbcjq75U4uslyuy4kn0qviTgY3KcU.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Lora';
   font-style: italic;
   font-weight: 400;
-  font-display: swap;
   src: url(s/lora/v32/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-MoFoq92mQ.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Lora';
   font-style: italic;
   font-weight: 500;
-  font-display: swap;
   src: url(s/lora/v32/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-PgFoq92mQ.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Lora';
   font-style: italic;
   font-weight: 600;
-  font-display: swap;
   src: url(s/lora/v32/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-BQCoq92mQ.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Lora';
   font-style: italic;
   font-weight: 700;
-  font-display: swap;
   src: url(s/lora/v32/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-C0Coq92mQ.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Lora';
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
   src: url(s/lora/v32/0QI6MX1D_JOuGQbT0gvTJPa787weuxJBkqg.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Lora';
   font-style: normal;
   font-weight: 500;
-  font-display: swap;
   src: url(s/lora/v32/0QI6MX1D_JOuGQbT0gvTJPa787wsuxJBkqg.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Lora';
   font-style: normal;
   font-weight: 600;
-  font-display: swap;
   src: url(s/lora/v32/0QI6MX1D_JOuGQbT0gvTJPa787zAvBJBkqg.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Lora';
   font-style: normal;
   font-weight: 700;
-  font-display: swap;
   src: url(s/lora/v32/0QI6MX1D_JOuGQbT0gvTJPa787z5vBJBkqg.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Playfair Display';
   font-style: italic;
   font-weight: 400;
-  font-display: swap;
   src: url(s/playfairdisplay/v36/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_qiTXtHA_A.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Playfair Display';
   font-style: italic;
   font-weight: 500;
-  font-display: swap;
   src: url(s/playfairdisplay/v36/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_pqTXtHA_A.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Playfair Display';
   font-style: italic;
   font-weight: 600;
-  font-display: swap;
   src: url(s/playfairdisplay/v36/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_naUXtHA_A.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Playfair Display';
   font-style: italic;
   font-weight: 700;
-  font-display: swap;
   src: url(s/playfairdisplay/v36/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_k-UXtHA_A.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Playfair Display';
   font-style: italic;
   font-weight: 800;
-  font-display: swap;
   src: url(s/playfairdisplay/v36/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_iiUXtHA_A.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Playfair Display';
   font-style: italic;
   font-weight: 900;
-  font-display: swap;
   src: url(s/playfairdisplay/v36/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_gGUXtHA_A.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
   src: url(s/playfairdisplay/v36/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDXbtY.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 500;
-  font-display: swap;
   src: url(s/playfairdisplay/v36/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKd3vXDXbtY.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 600;
-  font-display: swap;
   src: url(s/playfairdisplay/v36/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKebunDXbtY.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 700;
-  font-display: swap;
   src: url(s/playfairdisplay/v36/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDXbtY.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 800;
-  font-display: swap;
   src: url(s/playfairdisplay/v36/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKfFunDXbtY.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 900;
-  font-display: swap;
   src: url(s/playfairdisplay/v36/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKfsunDXbtY.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Poppins';
   font-style: italic;
   font-weight: 100;
-  font-display: swap;
   src: url(s/poppins/v20/pxiAyp8kv8JHgFVrJJLmE0tCMPc.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Poppins';
   font-style: italic;
   font-weight: 200;
-  font-display: swap;
   src: url(s/poppins/v20/pxiDyp8kv8JHgFVrJJLmv1pVF9eL.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Poppins';
   font-style: italic;
   font-weight: 300;
-  font-display: swap;
   src: url(s/poppins/v20/pxiDyp8kv8JHgFVrJJLm21lVF9eL.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Poppins';
   font-style: italic;
   font-weight: 400;
-  font-display: swap;
   src: url(s/poppins/v20/pxiGyp8kv8JHgFVrJJLucHtF.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Poppins';
   font-style: italic;
   font-weight: 500;
-  font-display: swap;
   src: url(s/poppins/v20/pxiDyp8kv8JHgFVrJJLmg1hVF9eL.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Poppins';
   font-style: italic;
   font-weight: 600;
-  font-display: swap;
   src: url(s/poppins/v20/pxiDyp8kv8JHgFVrJJLmr19VF9eL.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Poppins';
   font-style: italic;
   font-weight: 700;
-  font-display: swap;
   src: url(s/poppins/v20/pxiDyp8kv8JHgFVrJJLmy15VF9eL.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Poppins';
   font-style: italic;
   font-weight: 800;
-  font-display: swap;
   src: url(s/poppins/v20/pxiDyp8kv8JHgFVrJJLm111VF9eL.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Poppins';
   font-style: italic;
   font-weight: 900;
-  font-display: swap;
   src: url(s/poppins/v20/pxiDyp8kv8JHgFVrJJLm81xVF9eL.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 100;
-  font-display: swap;
   src: url(s/poppins/v20/pxiGyp8kv8JHgFVrLPTucHtF.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 200;
-  font-display: swap;
   src: url(s/poppins/v20/pxiByp8kv8JHgFVrLFj_Z1xlEA.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 300;
-  font-display: swap;
   src: url(s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1xlEA.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
   src: url(s/poppins/v20/pxiEyp8kv8JHgFVrJJfedw.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
-  font-display: swap;
   src: url(s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlEA.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
-  font-display: swap;
   src: url(s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlEA.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
-  font-display: swap;
   src: url(s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlEA.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 800;
-  font-display: swap;
   src: url(s/poppins/v20/pxiByp8kv8JHgFVrLDD4Z1xlEA.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 900;
-  font-display: swap;
   src: url(s/poppins/v20/pxiByp8kv8JHgFVrLBT5Z1xlEA.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
   font-style: italic;
   font-weight: 100;
-  font-display: swap;
   src: url(s/roboto/v30/KFOiCnqEu92Fr1Mu51QrEzAdKg.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
   font-style: italic;
   font-weight: 300;
-  font-display: swap;
   src: url(s/roboto/v30/KFOjCnqEu92Fr1Mu51TjASc6CsE.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
   font-style: italic;
   font-weight: 400;
-  font-display: swap;
   src: url(s/roboto/v30/KFOkCnqEu92Fr1Mu51xIIzc.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
   font-style: italic;
   font-weight: 500;
-  font-display: swap;
   src: url(s/roboto/v30/KFOjCnqEu92Fr1Mu51S7ACc6CsE.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
   font-style: italic;
   font-weight: 700;
-  font-display: swap;
   src: url(s/roboto/v30/KFOjCnqEu92Fr1Mu51TzBic6CsE.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
   font-style: italic;
   font-weight: 900;
-  font-display: swap;
   src: url(s/roboto/v30/KFOjCnqEu92Fr1Mu51TLBCc6CsE.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 100;
-  font-display: swap;
   src: url(s/roboto/v30/KFOkCnqEu92Fr1MmgVxIIzc.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 300;
-  font-display: swap;
   src: url(s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc9.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
   src: url(s/roboto/v30/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-display: swap;
   src: url(s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc9.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-display: swap;
   src: url(s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc9.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
-  font-display: swap;
   src: url(s/roboto/v30/KFOlCnqEu92Fr1MmYUtfBBc9.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 100;
-  font-display: swap;
   src: url(s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojIWmb2Rm.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 200;
-  font-display: swap;
   src: url(s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDISmb2Rm.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 300;
-  font-display: swap;
   src: url(s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjo0oSmb2Rm.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
   src: url(s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rm.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 500;
-  font-display: swap;
   src: url(s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjovoSmb2Rm.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 600;
-  font-display: swap;
   src: url(s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoUoOmb2Rm.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 700;
-  font-display: swap;
   src: url(s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoa4Omb2Rm.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 800;
-  font-display: swap;
   src: url(s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDIOmb2Rm.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 900;
-  font-display: swap;
   src: url(s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoJYOmb2Rm.ttf) format('truetype');
 }
