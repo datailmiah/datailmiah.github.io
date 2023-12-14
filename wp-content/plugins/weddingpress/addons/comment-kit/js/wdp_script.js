@@ -205,7 +205,7 @@ jQuery(document).ready(function ($) {
     }
     else {
       // VALIDAR CAMPOS DE TEXTO
-      if ($(this).find('input#author').length) {
+      if ($(this).find('input#author').length < 30) {
         var $author = $(this).find('input#author');
         var $authorVal = $author.val().replace(/\s+/g, ' ');
         var $authorRegEx = /^[^?%$=\/]{1,30}$/i;
@@ -615,6 +615,101 @@ jQuery(document).ready(function ($) {
     $(this).removeClass('wdp-error');
   });
 
+  // function processUrl_WDP(post_id) {
+  //   var $ok = true;
+  //   var $urlField = $('#wdp-modal-url-link');
+  //   var $textField = $('#wdp-modal-text-link');
+  //   if ($urlField.val().length < 1) {
+  //     $ok = false;
+  //     $urlField.addClass('wdp-error');
+  //   }
+  //   if ($textField.val().length < 1) {
+  //     $ok = false;
+  //     $textField.addClass('wdp-error');
+  //   }
+  //   if ($ok) {
+  //     var $urlVal = $urlField.val().replace(/https?:\/\//gi, '');
+  //     var link_show_comments = '<a href="http://' + $urlVal + '" title="' + $textField.val() + '" rel="nofollow" target="_blank">' + $textField.val() + '</a>';
+  //     insertInTextArea_WDP(post_id, link_show_comments);
+  //   }
+  //   return false;
+  // }
+
+  // function processImage_WDP(post_id) {
+  //   var $ok = true;
+  //   var $urlField = $('#wdp-modal-url-image');
+  //   if ($urlField.val().length < 1) {
+  //     $ok = false;
+  //     $urlField.addClass('wdp-error');
+  //   }
+  //   if ($ok) {
+  //     var $urlVal = $urlField.val();
+  //     var $image = '<img src="' + $urlVal + '" />';
+  //     insertInTextArea_WDP(post_id, $image);
+  //   }
+  //   return false;
+  // }
+
+  //vista previa de imagen
+  // $(document).delegate('#wdp-modal-url-image', 'change', function (e) {
+  //   setTimeout(function () {
+  //     $('#wdp-modal-preview').html('<img src="' + $('#wdp-modal-url-image').val() + '" />');
+  //   }, 200);
+  // });
+
+  // function processVideo_WDP(post_id) {
+  //   var $ok = true;
+  //   var $urlField = $('#wdp-modal-url-video');
+  //   if (!$('#wdp-modal-preview').find('iframe').length) {
+  //     $ok = false;
+  //     $('#wdp-modal-preview').html('<p class="wdp-modal-error">Please check the video url</p>');
+  //   }
+  //   if ($ok) {
+  //     var $video = '<p>' + $('#wdp-modal-preview').find('input[type="hidden"]').val() + '</p>';
+  //     insertInTextArea_WDP(post_id, $video);
+  //   }
+  //   return false;
+  // }
+
+  //vista previa de video
+  // $(document).delegate('#wdp-modal-verifique-video', 'click', function (e) {
+  //   e.preventDefault();
+  //   var $urlVideo = $('#wdp-modal-url-video');
+  //   var $urlVideoVal = $urlVideo.val().replace(/\s+/g, '');
+  //   $urlVideo.removeClass('wdp-error');
+  //   $(this).attr('id', '');//desactivamos el enlace
+
+  //   if ($urlVideoVal.length < 1) {
+  //     $urlVideo.addClass('wdp-error');
+  //     $('.wdp-modal-video').find('a.wdp-modal-verifique').attr('id', 'wdp-modal-verifique-video');//activamos el enlace
+  //     return false;
+  //   }
+
+  //   var data = 'url_video=' + $urlVideoVal;
+  //   $.ajax({
+  //     url: WDP.ajaxurl,
+  //     data: data + '&action=verificar_video_WDP',
+  //     type: "POST",
+  //     dataType: "html",
+  //     beforeSend: function () {
+  //       $('#wdp-modal-preview').html('<div class="wdp-loading wdp-loading-2"></div>');
+  //     },
+  //     success: function (data) {
+  //       if (data != 'error') {
+  //         $('#wdp-modal-preview').html(data);
+  //       } else {
+  //         $('#wdp-modal-preview').html('<p class="wdp-modal-error">Invalid video url</p>');
+  //       }
+  //     },
+  //     error: function (xhr) {
+  //       $('#wdp-modal-preview').html('<p class="wdp-modal-error">Failed to process, try again</p>');
+  //     },
+  //     complete: function (jqXHR, textStatus) {
+  //       $('.wdp-modal-video').find('a.wdp-modal-verifique').attr('id', 'wdp-modal-verifique-video');//activamos el enlace
+  //     }
+  //   });//end ajax
+  // });
+
   function closeModal_WDP() {
     $('#wdp-overlay, #wdp-modal').remove();
     return false;
@@ -736,6 +831,57 @@ jQuery(document).ready(function ($) {
       $fieldID.focus();
     }
   }
+
+  // LIKE COMMENTS
+  // $(document).delegate('a.wdp-rating-link', 'click', function (e) {
+  //   e.preventDefault();
+  //   var comment_id = $(this).attr('href').split('=')[1].replace('&method', '');
+  //   var $method = $(this).attr('href').split('=')[2];
+  //   commentRating_WDP(comment_id, $method);
+  //   return false;
+  // });
+
+  // function commentRating_WDP(comment_id, $method) {
+  //   var $ratingCount = $('#wdp-comment-' + comment_id).find('.wdp-rating-count');
+  //   var $currentLikes = $ratingCount.text();
+  //   jQuery.ajax({
+  //     type: 'POST',
+  //     url: WDP.ajaxurl,
+  //     data: {
+  //       action: 'comment_rating',
+  //       comment_id: comment_id,
+  //       method: $method,
+  //       nonce: WDP.nonce
+  //     },
+  //     beforeSend: function () {
+  //       $ratingCount.html('').addClass('wdpo-loading');
+  //     },
+  //     success: function (result) {
+  //       var data = $.parseJSON(result);
+  //       if (data.success === true) {
+  //         $ratingCount.html(data.likes).attr('title', data.likes + ' ' + WDP_WP.textLikes);
+  //         if (data.likes < 0) {
+  //           $ratingCount.removeClass().addClass('wdp-rating-count wdp-rating-negative');
+  //         }
+  //         else if (data.likes > 0) {
+  //           $ratingCount.removeClass().addClass('wdp-rating-count wdp-rating-positive');
+  //         }
+  //         else {
+  //           $ratingCount.removeClass().addClass('wdp-rating-count wdp-rating-neutral');
+  //         }
+  //       } else {
+  //         $ratingCount.html($currentLikes);
+  //       }
+  //     },
+  //     error: function (xhr) {
+  //       $ratingCount.html($currentLikes);
+  //     },
+  //     complete: function (data) {
+  //       $ratingCount.removeClass('wdpo-loading');
+  //     }//end success
+
+  //   });//end jQuery.ajax
+  // }
 
   function clog(msg) {
     console.log(msg);
